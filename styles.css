@@ -11296,7 +11296,7 @@ html {
 }
 
 .bg-gradient-primary-to-secondary {
-  background: linear-gradient(#157347, #198754, #20c997) !important;
+  background: linear-gradient(#198754, #20c997) !important;
 }
 
 .font-alt {
@@ -11394,7 +11394,7 @@ section {
 
 .device[data-device=iPhoneX][data-orientation=portrait][data-color=black]::after {
   content: "";
-  background-image: url("../assets/img/portrait_black.png");
+  background-image: url("portrait_black.png");
 }
 
 .device[data-device=iPhoneX][data-orientation=portrait][data-color=black] .button {
@@ -11626,8 +11626,13 @@ footer a:hover, footer a:active, footer a:focus {
 .logo img {
   padding: 0.25rem;
   background-color: #fff;
-  border: 1px solid #dee2e6;
-  border-radius: 0.25rem;
   max-width: 100%;
   height: auto;
+}
+
+.app-logo {
+  padding: 0.25rem;
+  background-color: #fff;
+  max-width: 100%;
+  height: 100%;
 }

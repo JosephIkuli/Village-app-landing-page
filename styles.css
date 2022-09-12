@@ -11314,6 +11314,7 @@ aside,
 section {
   padding-top: 5rem;
   padding-bottom: 5rem;
+  background-color: #f8f9fa;
 }
 
 .app-badge {
@@ -11631,8 +11632,18 @@ footer a:hover, footer a:active, footer a:focus {
 }
 
 .app-logo {
-  padding: 0.25rem;
-  background-color: #fff;
-  max-width: 100%;
+  background-color: white;
+  width: auto;
+}
+
+.app-logo img {
+  width: 100%;
   height: 100%;
+  padding-top: 120px;
+}
+
+.img-responsive {
+  width: 100%;
+  height: 100%;
+  padding-top: 120px;
 }

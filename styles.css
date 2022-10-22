@@ -11304,7 +11304,7 @@ html {
 }
 
 .text-gradient {
-  background: -webkit-linear-gradient(#2937f0, #9f1ae2);
+  background: -webkit-linear-gradient(#2937f0, #7ed321);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -11382,23 +11382,23 @@ section {
   cursor: pointer;
 }
 
-.device[data-device=iPhoneX][data-orientation=portrait][data-color=black] {
+.device[data-device=iPhone7][data-orientation=portrait][data-color=black] {
   padding-bottom: 198.898071625%;
 }
 
-.device[data-device=iPhoneX][data-orientation=portrait][data-color=black] .screen {
+.device[data-device=iPhone7][data-orientation=portrait][data-color=black] .screen {
   top: 3.1855955679%;
   left: 6.8870523416%;
   width: 86.2258953168%;
   height: 93.6288088643%;
 }
 
-.device[data-device=iPhoneX][data-orientation=portrait][data-color=black]::after {
+.device[data-device=iPhone7][data-orientation=portrait][data-color=black]::after {
   content: "";
   background-image: url("portrait_black.png");
 }
 
-.device[data-device=iPhoneX][data-orientation=portrait][data-color=black] .button {
+.device[data-device=iPhone7][data-orientation=portrait][data-color=black] .button {
   display: none;
   top: 0%;
   left: 0%;

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="activity-stream.css">
+        <link rel="stylesheet" type="text/css" href="contentSearchUI.css">
+    </head>
+    <body class="activity-stream" style="--newtab-search-icon: url(moz-extension://37dc2ff0-bbd0-4d0e-bf2c-d68551d6aed0/favicon.ico);">
+        <div id="root">
+            <div>
+                <span>
+                    <button class="icon icon-settings personalize-button personalize-animate-appear-done personalize-animate-enter-done" data-l10n-id="newtab-personalize-icon-label" title="Personalize new tab" aria-label="Personalize new tab"></button>
+                    <div class="customize-menu" role="dialog" data-l10n-id="newtab-personalize-dialog-label" aria-label="Personalize">
+                        <button class="close-button" data-l10n-id="newtab-custom-close-button">Close</button>
+                    </div>
+                </span>
+                <div class="outer-wrapper ds-outer-wrapper-breakpoint-override visible-logo newtab-experience">
+                    <main class="">
+                        <div class="non-collapsible-section">
+                            <div class="search-wrapper">
+                                <div class="logo-and-wormark">
+                                    <div class="logo"></div>
+                                    <div class="wordmark"></div>
+                                </div>
+                                <div class="search-inner-wrapper">
+                                    <button class="search-handoff-button" data-l10n-id="newtab-search-box-handoff-input" tabindex="-1" title="Search with Google or enter address" aria-label="Search with Google or enter address" data-l10n-args="{"engine":"Google"}">
+                                        <div class="fake-textbox" data-l10n-id="newtab-search-box-handoff-text" data-l10n-args="{"engine":"Google"}">Search with Google or enter address</div>
+                                        <input class="fake-editable" type="search" tabindex="-1" aria-hidden="true">
+                                        <div class="fake-caret"></div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="body-wrapper on">
+                            <div class="discovery-stream ds-layout">
+                                <div class="ds-column ds-column-12">
+                                    <div class="ds-column-grid">
+                                        <div>
+                                            <div class="ds-top-sites ">
+                                                <section class="collapsible-section top-sites animation-enabled" aria-expanded="true" data-section-id="topsites">
+                                                    <div class="section-top-bar">
+                                                        <h3 class="section-title" style="visibility: hidden;">
+                                                        <span class="click-target-container">
+                                                            <span class="click-target" role="button" tabindex="0">
+                                                                <span data-l10n-id="newtab-section-header-topsites">Top Sites</span>
+                                                            </span>
+                                                            <span class="learn-more-link-wrapper"></span>
+                                                        </span></h3>
+                                                    </div>
+                                                    <div class="section-body">
+                                                        <ul class="top-sites-list">
+                                                            <li class="top-site-outer">
+                                                                <div class="top-site-inner">
+                                                                    <a class="top-site-button" href="videos.html" tabindex="0" draggable="true">
+                                                                        <div class="tile" aria-hidden="true">
+                                                                            <div class="icon-wrapper" data-fallback="C">
+                                                                                <div class="top-site-icon rich-icon" style= "background-image: images/ic_movie_creation_white_48dp"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="title">
+                                                                            <span dir="auto">
+                                                                                Chat
+                                                                                <span class="sponsored-label" data-l10n-id="newtab-topsite-sponsored">Sponsored</span>
+                                                                            </span>
+                                                                        </div>
+                                                                    </a>
+                                                                    <div>
+                                                                        <button class="context-menu-button icon" aria-haspopup="true" data-l10n-id="newtab-menu-content-tooltip" data-l10n-args="{"title":"Chat"}" title="Open menu" aria-label="Open context menu for Chat"></button>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="top-site-outer">
+                                                                <div class="top-site-inner">
+                                                                    <a class="top-site-button" href="community.html" tabindex="0" draggable="true">
+                                                                        <div class="tile" aria-hidden="true">
+                                                                            <div class="icon-wrapper" data-fallback="C">
+                                                                                <div class="top-site-icon rich-icon" style="background-image: url("chrome://activity-stream/content/data/content/tippytop/images/facebook-com@2x.png");"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="title">
+                                                                            <span dir="auto">
+                                                                                Maps
+                                                                                <span class="sponsored-label" data-l10n-id="newtab-topsite-sponsored">Sponsored</span>
+                                                                            </span>
+                                                                        </div>
+                                                                    </a>
+                                                                    <div>
+                                                                        <button class="context-menu-button icon" aria-haspopup="true" data-l10n-id="newtab-menu-content-tooltip" data-l10n-args="{"title":"Maps"}" title="Open menu" aria-label="Open context menu for Maps"></button>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="top-site-outer">
+                                                                <div class="top-site-inner">
+                                                                    <a class="top-site-button" href="videos.html" tabindex="0" draggable="true">
+                                                                        <div class="tile" aria-hidden="true">
+                                                                            <div class="icon-wrapper" data-fallback="M">
+                                                                                <div class="top-site-icon rich-icon" style:"background-image: .images/ic_movie_creation_white_48dp"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="title">
+                                                                            <span dir="auto">
+                                                                                Market
+                                                                                <span class="sponsored-label" data-l10n-id="newtab-topsite-sponsored">Sponsored</span>
+                                                                            </span>
+                                                                        </div>
+                                                                    </a>
+                                                                    <div>
+                                                                        <button class="context-menu-button icon" aria-haspopup="true" data-l10n-id="newtab-menu-content-tooltip" data-l10n-args="{"title":"Market"}" title="Open menu" aria-label="Open context menu for Market"></button>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="top-site-outer">
+                                                                <div class="top-site-inner">
+                                                                    <a class="top-site-button" href="community.html" tabindex="0" draggable="true">
+                                                                        <div class="tile" aria-hidden="true">
+                                                                            <div class="icon-wrapper" data-fallback="S">
+                                                                                <div class="top-site-icon rich-icon" style:"background-image: url("chrome://activity-stream/content/data/content/tippytop/images/facebook-com@2x.png");"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="title">
+                                                                            <span dir="auto">
+                                                                                Services
+                                                                                <span class="sponsored-label" data-l10n-id="newtab-topsite-sponsored">Sponsored</span>
+                                                                            </span>
+                                                                        </div>
+                                                                    </a>
+                                                                    <div>
+                                                                        <button class="context-menu-button icon" aria-haspopup="true" data-l10n-id="newtab-menu-content-tooltip" data-l10n-args="{"title":"Search"}" title="Open menu" aria-label="Open context menu for Services"></button>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="top-site-outer">
+                                                                <div class="top-site-inner">
+                                                                    <a class="top-site-button" href="videos.html" tabindex="0" draggable="true">
+                                                                        <div class="tile" aria-hidden="true">
+                                                                            <div class="icon-wrapper" data-fallback="D">
+                                                                                <div class="top-site-icon rich-icon" style: "background-image: .images/ic_movie_creation_white_48dp"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="title">
+                                                                            <span dir="auto">
+                                                                                Delivery
+                                                                                <span class="sponsored-label" data-l10n-id="newtab-topsite-sponsored">Sponsored</span>
+                                                                            </span>
+                                                                        </div>
+                                                                    </a>
+                                                                    <div>
+                                                                        <button class="context-menu-button icon" aria-haspopup="true" data-l10n-id="newtab-menu-content-tooltip" data-l10n-args="{"title":"Delivery"}" title="Open menu" aria-label="Open context menu for Delivery"></button>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="top-site-outer">
+                                                                <div class="top-site-inner">
+                                                                    <a class="top-site-button" href="community.html" tabindex="0" draggable="true">
+                                                                        <div class="tile" aria-hidden="true">
+                                                                            <div class="icon-wrapper" data-fallback="C">
+                                                                                <div class="top-site-icon rich-icon" style:"background-image: url("chrome://activity-stream/content/data/content/tippytop/images/facebook-com@2x.png");"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="title">
+                                                                            <span dir="auto">
+                                                                                Community
+                                                                                <span class="sponsored-label" data-l10n-id="newtab-topsite-sponsored">Sponsored</span>
+                                                                            </span>
+                                                                        </div>
+                                                                    </a>
+                                                                    <div>
+                                                                        <button class="context-menu-button icon" aria-haspopup="true" data-l10n-id="newtab-menu-content-tooltip" data-l10n-args="{"title":"Community"}" title="Open menu" aria-label="Open context menu for Community"></button>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                        
+                                                        </ul>
+                                                        <div class="edit-topsites-wrapper"></div>
+                                                    </div>
+                                                </section>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <style data-styles="[[null]]"></style>
+                            </div>
+                            <div class="discovery-stream ds-layout">
+                                <div class="ds-column ds-column-12">
+                                    <div class="ds-column-grid">
+                                        <div></div>
+                                    </div>
+                                </div>
+                                <style data-styles="[[null]]"></style>
+                            </div>
+                        </div>
+                    </main>
+                </div>
+            </div>
+        </div>
+        <div id="footer-asrouter-container" role="presentation"></div>
+    </body>
+</html>

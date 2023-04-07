@@ -1389,7 +1389,7 @@ progress {
 
   .col-lg-6 {
     flex: 0 0 auto;
-    width: 50%;
+    width: 100%;
   }
 
   .col-lg-7 {
@@ -9915,7 +9915,7 @@ textarea.form-control-lg {
   }
 
   .text-lg-start {
-    text-align: left !important;
+    text-align: center !important;
   }
 
   .text-lg-end {
